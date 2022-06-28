@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@900&display=swap');
+
+body{
+    background: #dee2e6;
+}
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 5%;
+    align-items: center;
+    color: white;
+}
+
+.lista {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.lista_sessao {
+    padding: .5rem 1rem;
+    margin: 0 .1rem;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.lista_sessao > a {
+    text-decoration: none;
+    color: black;
+}
+
+.lista_sessao:hover {
+    cursor: pointer;
+}
+
+.principal {
+    background-image: url('../img/barbearia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal_nome {
+    font-size: 3rem;
+    text-align: center;
+    color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+/*footer*/
+footer {
+    background: url('../img/bg.jpg');
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

@@ -1,0 +1,54 @@
+/*ENDEREÇO*/
+.endereco {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.titulo-principal {
+    font-size: 1.3rem;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa > p {
+    text-align: center;
+    font-size: .9rem;
+    padding-bottom: .2rem;
+}
+
+.institucional {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.institucional__endereco {
+    font-size: 1.3rem;
+    line-height: normal;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.institucional__contato {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.institucional__contato-telefone {
+    color: black;
+}
+
+article > p a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}

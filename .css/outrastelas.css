@@ -1,0 +1,23 @@
+@media screen and (min-width: 728px) {
+    .caixa {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .principal {
+        height: 400px;
+    }
+
+    .principal_nome {
+        font-size: 6rem;
+    }
+
+    .produtos {
+        flex-direction: row;
+        
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+}
